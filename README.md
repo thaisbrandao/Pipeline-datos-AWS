@@ -11,7 +11,7 @@ El flujo de datos se divide en las siguientes fases estratégicas:
 3. **Deduplicación:** Implementación de lógica `DISTINCT id` para depurar registros duplicados procedentes del feed continuo.
 4. **Capa de Consumo (BI):** Módulo analítico construido en Python mediante la librería `boto3` para la ejecución asíncrona de consultas en Athena.
 
-## 📊 Dashboard Analítico (Estilo Harvard Editorial)
+## 📊 Dashboard Analítico 
 
 La interfaz visual ha sido diseñada siguiendo los estándares de diseño de informes ejecutivos y Business Intelligence de alta dirección:
 - **KPIs Unificados:** Panel superior limpio con métricas clave (Total de eventos únicos, magnitud máxima registrada y epicentro crítico).
